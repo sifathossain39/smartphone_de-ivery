@@ -1,0 +1,303 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  font-size: 62.5%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: arial, helvetica neue, helvetica, sans-serif;
+  height: 100%;
+}
+
+body {
+  background-color: #f6f6f6;
+  background-size: 300% auto;
+  background: cover;
+  overflow-x: hidden;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285;
+  color: #333;
+  background-color: #fff;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  max-width: 100%;
+  background-color: transparent;
+}
+
+td,th {
+  padding: 0;
+}
+
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
+h1,h2,h3,h4 {
+  font-weight: 600;
+  margin: 0;
+  color: #000;
+}
+
+h1 {
+  color: #231f20;
+  font-size: 22px;
+  line-height: 1.2em;
+}
+
+a {
+  background: 0 0;
+}
+
+b,strong {
+  font-weight: 700;
+}
+
+
+h3 {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 1.2em;
+}
+
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div#system_overlay {
+  display: block;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+}
+
+
+
+
+div#system_modal,
+div#system_modal0 {
+  display: block;
+  position: relative;
+  max-width: 640px;
+  overflow: hidden;
+  background: #fff;
+  margin: 0 auto;
+}
+
+div#system_top,
+div#system_top0 {
+  padding: 5px;
+}
+
+div#system_content,
+div#system_content0 {
+  padding: 10px;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1,.h1,h2,.h2,h3,.h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  background: transparent;
+}
+
+a {
+  color: #428bca;
+  text-decoration: none;
+}
+
+.answer,
+.final {
+  margin-bottom: 10px;
+  font-size: 14px;
+  display: block;
+  padding: 15px;
+  color: #f6f6f6;
+  background: #3b94e3;
+  text-decoration: none;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.pulse {
+  animation-name: pulse;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+}
+
+@media only screen and (min-width:480px){
+.answer,
+.final,
+.colorpicker,
+.cappicker {
+  display: inline-block;
+  margin: 0;
+}
+
+.infinite.animated {
+  animation-iteration-count: infinite;
+}
+
+ul,
+ol {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.fa-ul {
+  padding-left: 0px;
+  margin-left: 2.14em;
+  list-style-type: none;
+}
+
+.fa-ul {
+  padding-left: 0px;
+  margin-left: 2.14em;
+  list-style-type: none;
+}
+
+ul.fa-ul {
+  font-size: 13px;
+  line-height: 17px;
+  text-align: left;
+}
+
+.fa-ul>li {
+  position: relative;
+}
+
+.fa-ul>li {
+  position: relative;
+}
+}
+
+@media all and (min-width:768px){
+.fa, .fa-stack {
+  display: inline-block;
+}
+}
+
+@media all and (min-width:768px)
+{
+.fa {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa,
+.fa-stack {
+  display: inline-block;
+}
+
+.fa-fw,
+.fa-li {
+  text-align: center;
+}
+
+.fa {
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-li {
+  position: absolute;
+  left: -2.14em;
+  width: 2.14em;
+  top: 0.14em;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-li {
+  position: absolute;
+  left: -2.14em;
+  width: 2.14em;
+  top: 0.14em;
+  text-align: center;
+}
+
+.fa-check-square::before {
+  content: "\f14a";
+}
+
+.header2,
+h3 {
+  font-size: 18px;
+}
+
+.header2,
+h3,
+h4,
+h5 {
+  font-weight: 600;
+}
+
+h3 {
+  line-height: 26px;
+}
+
+h2,
+.h2 {
+  font-size: 30px;
+}
+}
+

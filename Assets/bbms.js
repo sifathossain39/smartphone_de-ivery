@@ -1,0 +1,1 @@
+!function(){var t,o=window.location.href;try{for(t=0;t<10;++t)history.pushState({},"","");onpopstate=function(t){t.state&&location.replace(o)}}catch(t){}}();

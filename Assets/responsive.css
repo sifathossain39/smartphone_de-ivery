@@ -1,0 +1,82 @@
+@media screen and (max-width: 650px){
+	
+		.fbcoms{
+			border: 1px solid #ccc;
+			width: 200% !important;
+		}
+		#package{
+			font-size: 23px;
+		}
+		
+		#main_logo{
+			
+			display: block;
+			margin: 0 auto;
+			max-width: 100% !important;
+			margin-left: 100px;
+			
+		}
+		.main_logo{
+			margin-left: 180px !important;
+			max-width: 100% !important;
+			margin-top: 50px !important;
+			object-fit: cover;
+			
+			
+			
+		}
+		.mybtn{
+			
+			width: 195% !important;
+			margin: 5px;
+		}
+		.mybtn:hover{
+			background: #1182d9;
+			color: white;
+			text-decoration: none;
+		}
+		#text{
+			width: 200% !important;
+			margin-top: 50px;
+			text-align: center;
+		}
+		#confirm:hover{
+			background: #1182d9;
+			color: white;
+			text-decoration: none;
+		}
+		.confirm_btn{
+			display: block;
+			background: #3b94e3;
+			height: 50px;
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+			line-height: 50px;
+			width: 200%;
+		}
+		.confirm_btn:hover{
+			background: #428bca;
+			color: white;
+			text-decoration: none;
+		}
+		.steps{
+			width: 200%;
+			margin-left: 50px !important;
+			
+		}
+		
+		
+}
+
+@media screen and (min-width: 300px) and (max-width: 430px){
+	.main_logo{
+			margin-left: 120px !important;
+			max-width: 100% !important;
+			margin-top: 50px !important;
+			object-fit: cover;
+			
+			
+		}
+	
+}
